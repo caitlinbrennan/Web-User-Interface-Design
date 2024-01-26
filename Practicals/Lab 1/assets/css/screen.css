@@ -1,0 +1,72 @@
+h1{
+    text-align: center;
+}
+
+#Items{
+    width: 100%;
+}
+#Items, th, td{
+    border: 1px solid;
+}
+td {
+    text-align: center;
+  }
+  tr, td {
+    padding: 50px;
+  }
+  td:hover {
+    background-color: rgb(207, 222, 241);
+  }
+  td{
+    height: 300px;
+    width: 350px;
+  }
+
+
+
+#Airpods1{
+    height: 200px;
+    width: 200px;
+}
+#Airpods2{
+    height: 200px;
+    width: 150px;
+}
+#Airpods3{
+    height: 200px;
+    width: 250px;
+}
+#AirpodsPro{
+    height: 150px;
+    width: 225px;
+}
+
+#GalaxyBudsFE{
+    height: 125px;
+    width: 250px;
+}
+#GalaxyBudsLive{
+    height: 150px;
+    width: 200px;
+}
+#GalaxyBudsPro{
+    height: 100px;
+    width: 250px;
+}
+#GalaxyBuds2Pro{
+    height: 125px;
+    width: 300px;
+}
+#GalaxyBuds2{
+    height: 100px;
+    width: 250px;
+}
+
+#SonyXM3{
+    height: 250px;
+    width: 250px;
+}
+#SonyXM4{
+    height: 250px;
+    width: 250px;
+}
