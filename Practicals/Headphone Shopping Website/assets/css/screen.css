@@ -1,0 +1,180 @@
+body{
+    background-color: rgb(233, 212, 253);
+}
+h1{
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(207, 159, 252);
+  }
+  li{
+    float: left;
+    font-size: 40px;
+    border-right: 1px solid #bbb;
+    padding-left: 136px;
+    padding-right: 136px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li:hover {
+    background-color: rgb(174, 87, 255);
+  }
+
+.formOne{
+    top: 100px;
+    left: 100px;
+    position: relative;
+    display: inline-block;
+}
+select{
+    padding: 10px 15px;
+    font-size: 25px;
+}
+input{
+    padding: 5px 10px;
+    font-size: 15px;
+}
+.labelOne{
+    font-size: 35px;
+}
+.formTwo{
+    top: 100px;
+    left: 400px;
+    position: relative;
+    display: inline-block;
+}
+.labelTwo{
+    font-size: 35px;
+}
+
+#Items{
+    width: 100%;
+}
+td {
+    text-align: center;
+  }
+  tr, td {
+    padding: 40px;
+  }
+  #Items td{
+    height: 100px;
+    width: 150px;
+    padding: 80px;
+  }
+  #Sony720N{
+    height: 250px;
+    width: 200px;
+    padding: 50px;
+  }
+
+#AppleNames td{
+    height: 20px;
+    width: 50px;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+#AppleLinks td{
+    height: 10px;
+    width: 20px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold; 
+}
+#AppleLinks td:hover{
+    background-color: rgb(225, 247, 207);
+}
+#SamsungNames td{
+    height: 20px;
+    width: 40px;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+#SamsungLinks td{
+    height: 10px;
+    width: 20px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold; 
+}
+#SamsungLinks td:hover{
+    background-color: rgb(225, 247, 207);
+}
+#SonyNames td{
+    height: 20px;
+    width: 40px;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+#SonyLinks td{
+    height: 10px;
+    width: 20px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold; 
+}
+#SonyLinks td:hover{
+    background-color: rgb(225, 247, 207);
+}
+
+#Airpods1{
+    height: 200px;
+    width: 200px;
+}
+#Airpods2{
+    height: 200px;
+    width: 150px;
+}
+#Airpods3{
+    height: 200px;
+    width: 250px;
+}
+#AirpodsPro{
+    height: 150px;
+    width: 225px;
+}
+
+#GalaxyBudsFE{
+    height: 125px;
+    width: 250px;
+}
+#GalaxyBudsLive{
+    height: 150px;
+    width: 200px;
+}
+#GalaxyBudsPro{
+    height: 100px;
+    width: 250px;
+}
+#GalaxyBuds2Pro{
+    height: 125px;
+    width: 300px;
+}
+#GalaxyBuds2{
+    height: 100px;
+    width: 250px;
+}
+
+#SonyXM3{
+    height: 250px;
+    width: 250px;
+}
+#SonyXM4{
+    height: 250px;
+    width: 250px;
+}
