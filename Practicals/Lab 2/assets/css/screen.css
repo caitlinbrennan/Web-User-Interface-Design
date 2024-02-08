@@ -14,13 +14,13 @@ ul {
     background-color: rgb(207, 159, 252);
   }
   li{
+    width: 100px;
     float: left;
     font-size: 40px;
     border-right: 1px solid #bbb;
-    padding-left: 136px;
-    padding-right: 136px;
+    padding-left: 181.3px;
+    padding-right: 181.3px;
   }
-  
   li a {
     display: block;
     color: white;
