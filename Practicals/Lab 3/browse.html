@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+        <title>Lab 1</title>
+        <link rel="stylesheet" href="assets/css/screen.css">
+    </head>
+    <body>
+        <h1>Audio Guru</h1>
+        <ul id = "Browse">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="browse.html">Shop</a></li>
+            <li><a href="compare.html">Compare</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+
+        <table id = "Items">
+            <tr id = Apple>
+                <td><img id = "Airpods1" src = "assets/imgs/Airpods Gen 1.png"></td>
+                <td><img id = "Airpods2" src = "assets/imgs/Airpods Gen 2.png"></td>
+                <td><img id = "Airpods3" src = "assets/imgs/Airpods Gen 3.png"></td>
+                <td><img id = "AirpodsPro" src = "assets/imgs/Airpods Pro.png"></td>
+            </tr>
+            <tr id = "AppleNames">
+                <td><u>Apple Airpods Generation 1</u></td>
+                <td><u>Apple Airpods Generation 2</u></td>
+                <td><u>Apple Airpods Generation 3</u></td>
+                <td><u>Apple Airpods Pro</u></td>
+            </tr>
+            <tr id = "AppleLinks">
+                <td onclick = "openAmazonAirpods()"><u>Amazon - €118.92</u></a></td>
+                <td onclick = "openAppleAirpods2()"><u>Apple - €149.00</u></a></td>
+                <td onclick = "openAppleAirpods3()"><u>Apple - €209.00 (Magsafe) / €199.00 (USB-C)</u></a></td>
+                <td onclick = "openAppleAirpodsPro()"><u>Apple - €279.00</u></a></TD>
+            </tr>
+            <tr id = "Samsung">
+                <td><img id = "GalaxyBudsFE" src = "assets/imgs/Samsung Galaxy Buds FE.png"></td>
+                <td><img id = "GalaxyBudsLive" src = "assets/imgs/Samsung Galaxy Buds Live.png"></td>
+                <td><img id = "GalaxyBudsPro" src = "assets/imgs/Samsung Galaxy Buds Pro.png"></td>
+                <td><img id = "GalaxyBuds2Pro" src = "assets/imgs/Samsung Galaxy Buds2 Pro.png"></td>
+            </tr>
+            <tr id = "SamsungNames">
+                <td><u>Samsung Galaxy Buds FE</u></td>
+                <td><u>Samsung Galaxy Buds Live</u></td>
+                <td><u>Samsung Galaxy Buds Pro</u></td>
+                <td><u>Samsung Galaxy Buds2 Pro</u></td>
+            </tr>
+            <tr id = "SamsungLinks">
+                <td onclick = "openSamsungFE()"><u>Samsung - €89.00</u></a></td>
+                <td onclick = "openAmazonSamsungLive()"><u>Amazon - €69.82</u></a></td>
+                <td onclick = "openAmazonSamsungPro()"><u>Amazon - €125.28</u></a></td>
+                <td onclick = "openSamsung2Pro()"><u>Samsung - €239.00</u></a></td>
+            </tr>
+            <tr id = "sony">
+                <td><img id = "GalaxyBuds2" src = "assets/imgs/Samsung Galaxy Buds2.png"></td>
+                <td><img id = "SonyXM3" src = "assets/imgs/Sony WH-1000XM3.png"></td>
+                <td><img id = "SonyXM4" src = "assets/imgs/Sony WH-1000XM4.png"></td>
+                <td><img id = "Sony720N" src = "assets/imgs/Sony WH-CH720N.png"></td>
+            </tr>
+            <tr id = "SonyNames">
+                <td><u>Samsung Galaxy Buds2</u></td>
+                <td><u>Sony WH-1000XM3</u></td>
+                <td><u>Sony WH-1000XM4</u></td>
+                <td><u>Sony WH-CH720N</u></td>
+            </tr>
+            <tr id = "SonyLinks">
+                <td onclick = "openSamsung2()"><u>Samsung - €109.00</u></a></td>
+                <td onclick = "openCurrysSonyXM3()"><u>Currys - €299.00</u></a></td>
+                <td onclick = "openAmazonSonyXM4()"><u>Amazon - €245.16</u></a></td>
+                <td onclick = "openCurrysSony720N()"><u>Currys - €119.99</u></a></td>
+            </tr>
+        </table>
+        
+        <script src = "assets/js/script.js"></script>
+    </body>
+</html>
