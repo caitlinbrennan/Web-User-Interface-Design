@@ -7,39 +7,28 @@ h1{
 
 
 ul {
-    width: 100%;
+    display: flex;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    justify-content: center;
+    flex-wrap: wrap;
     background-color: rgb(207, 159, 252);
   }
   li{
-    width: 100px;
-    float: left;
-    font-size: 40px;
-    border-right: 1px solid #bbb;
-    padding-left: 151px;
-    padding-right: 151px;
+    padding: 1em;
   }
   li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    font-size: 40px;
+    padding: 1px 40px;
     text-decoration: none;
   }
   
-  li:hover {
+  li a:hover {
     background-color: rgb(174, 87, 255);
   }
 
-#Browse{
-    width: 100%
-}
-#Browse li{
-    padding-left: 147px;
-}
 
 .formOne{
     top: 100px;
@@ -68,9 +57,42 @@ input{
     font-size: 35px;
 }
 
-#Items{
-    width: 100%;
+.grid-container{
+    display: inline-grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto auto;
 }
+.grid-item{
+    padding: 58px;
+}
+.grid-item-samsung{
+    padding: 34px;
+    padding-top: 150px;
+}
+.grid-item-sony{
+    padding: 33px;
+    padding-top: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.grid-name{
+    padding-left: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+.grid-links{
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+.grid-links:hover{
+    color: rgb(188, 199, 180);
+}
+
 td {
     text-align: center;
   }
