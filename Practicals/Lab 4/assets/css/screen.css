@@ -1,0 +1,362 @@
+body{
+    background-color: rgb(233, 212, 253);
+}
+h1{
+    text-align: center;
+}
+@media only screen and (min-width: 1500px) {
+    body {
+        background-color: rgb(233, 212, 253);
+      }
+      section.half{
+          width: 100%;
+      }
+      p1,p2{
+          font-size: 20px;
+      }
+      .topnav{
+          display: none;
+      }
+      ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: rgb(207, 159, 252);
+      }
+      li{
+        padding: 1em;
+      }
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        padding: 1px 40px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: rgb(174, 87, 255);
+      }
+}
+@media only screen and (min-width: 1180px) {
+    body {
+      background-color: lightgoldenrodyellow;
+    }
+    section.half{
+        width: 100%;
+    }
+    p1,p2{
+        font-size: 25px;
+    }
+    .topnav{
+        display: none;
+    }
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: rgb(207, 159, 252);
+      }
+      li{
+        padding: 1em;
+      }
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        padding: 1px 40px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: rgb(174, 87, 255);
+      }
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+      background-color: lightpink;
+    }
+    section.half{
+        width: 100%;
+    }
+    p1,p2{
+        font-size: 30px;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: rgb(207, 159, 252);
+        position: relative;
+      }
+    
+      .topnav #myLinks {
+        display: none;
+        background-color: rgb(190, 142, 235);
+      }
+      #myLinks a:hover{
+        cursor: pointer;
+        background-color: rgb(173, 125, 218);
+      }
+    
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        cursor: default;
+      }
+    
+      .topnav a.icon {
+        background: rgb(174, 87, 255);
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+      }
+      
+      .topnav a.icon:hover {
+        background-color: #ddd;
+        color: black;
+      }
+}
+@media only screen and (min-width: 100px) {
+    body {
+      background-color: lightpink;
+    }
+    section.half{
+        width: 100%;
+    }
+    p1,p2{
+        font-size: 30px;
+    }
+    .topnav {
+        overflow: hidden;
+        background-color: rgb(207, 159, 252);
+        position: relative;
+      }
+    
+      .topnav #myLinks {
+        display: none;
+        background-color: rgb(190, 142, 235);
+      }
+      #myLinks a:hover{
+        cursor: pointer;
+        background-color: rgb(173, 125, 218);
+      }
+    
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        cursor: default;
+      }
+    
+      .topnav a.icon {
+        background: rgb(174, 87, 255);
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+      }
+      
+      .topnav a.icon:hover {
+        background-color: #ddd;
+        color: black;
+      }
+}
+
+
+.formOne{
+    top: 100px;
+    left: 100px;
+    position: relative;
+    display: inline-block;
+}
+select{
+    padding: 10px 15px;
+    font-size: 25px;
+}
+input{
+    padding: 5px 10px;
+    font-size: 15px;
+}
+.labelOne{
+    font-size: 35px;
+}
+.formTwo{
+    top: 100px;
+    left: 400px;
+    position: relative;
+    display: inline-block;
+}
+.labelTwo{
+    font-size: 35px;
+}
+
+.grid-container{
+    display: inline-grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto auto;
+}
+.grid-item{
+    padding: 58px;
+}
+.grid-item-samsung{
+    padding: 34px;
+    padding-top: 150px;
+}
+.grid-item-sony{
+    padding: 33px;
+    padding-top: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.grid-name{
+    padding-left: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+.grid-links{
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+.grid-links:hover{
+    color: rgb(188, 199, 180);
+}
+
+td {
+    text-align: center;
+  }
+  tr, td {
+    padding: 20px;
+  }
+  #Items td{
+    height: 100px;
+    width: 150px;
+    padding: 50px;
+  }
+  #Sony720N{
+    height: 250px;
+    width: 200px;
+    padding: 50px;
+  }
+
+#AppleNames td{
+    height: 20px;
+    width: 50px;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(72, 24, 117);
+}
+#AppleLinks td{
+    height: 10px;
+    width: 20px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold; 
+    cursor: pointer;
+}
+#AppleLinks td:hover{
+    background-color: rgb(225, 247, 207);
+}
+#SamsungNames td{
+    height: 20px;
+    width: 40px;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(72, 24, 117);
+}
+#SamsungLinks td{
+    height: 10px;
+    width: 20px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer; 
+}
+#SamsungLinks td:hover{
+    background-color: rgb(225, 247, 207);
+}
+#SonyNames td{
+    height: 20px;
+    width: 40px;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(72, 24, 117);
+}
+#SonyLinks td{
+    height: 10px;
+    width: 20px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold; 
+    cursor: pointer;
+}
+#SonyLinks td:hover{
+    background-color: rgb(225, 247, 207);
+}
+
+#Airpods1{
+    height: 200px;
+    width: 200px;
+}
+#Airpods2{
+    height: 200px;
+    width: 150px;
+}
+#Airpods3{
+    height: 200px;
+    width: 250px;
+}
+#AirpodsPro{
+    height: 150px;
+    width: 225px;
+}
+
+#GalaxyBudsFE{
+    height: 125px;
+    width: 250px;
+}
+#GalaxyBudsLive{
+    height: 150px;
+    width: 200px;
+}
+#GalaxyBudsPro{
+    height: 100px;
+    width: 250px;
+}
+#GalaxyBuds2Pro{
+    height: 125px;
+    width: 300px;
+}
+#GalaxyBuds2{
+    height: 100px;
+    width: 250px;
+}
+
+#SonyXM3{
+    height: 250px;
+    width: 250px;
+}
+#SonyXM4{
+    height: 250px;
+    width: 250px;
+}
