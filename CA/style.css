@@ -1,0 +1,160 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+#web-arch{
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #cacaca;
+    padding-bottom: 15px;
+    padding-left: 8px;
+    margin-bottom: 15px;
+}
+#web-servers{
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #cacaca;
+    padding-bottom: 15px;
+    padding-left: 8px;
+    margin-bottom: 15px;
+}
+#web-server-diff{
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #cacaca;
+    padding-bottom: 15px;
+    padding-left: 8px;
+}
+
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+    display:grid;
+}
+#table{
+    border-collapse: collapse;
+    width: 100%;
+}
+#table td, #table th{
+    border: 1px solid #cacaca;
+    padding: 8px;
+}
+#table th{
+    padding: 10px;
+    width: 20px;
+}
+th{
+    font-weight: lighter;
+    text-align: left;
+}
+#heading{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+#physical{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+#digital{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#browsers{
+    border-collapse: collapse;
+    width: 100%;
+}
+#browsers td, #browsers th{
+    border: 1px solid #cacaca;
+    padding: 8px;
+}
+
+
+dt{
+    font-weight: bold;
+}
+dl{
+    font-style: italic;
+}
+
+#web-concepts{
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #cacaca;
+    padding-bottom: 15px;
+    padding-left: 8px;
+    margin-bottom: 15px;
+}
+#web-concepts-right{
+    border-collapse: collapse;
+    width: 50%;
+    float: right;
+    border: 1px solid #cacaca;
+    padding-bottom: 15px;
+    padding-left: 8px;
+    margin-bottom: 15px;
+}
+#cookies{
+    width: 91%;
+    text-align: left;
+    background-color: #eeeeee;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#url{
+    width: 91%;
+    text-align: left;
+    background-color: #eeeeee;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#dn{
+    width: 91%;
+    text-align: left;
+    background-color: #eeeeee;
+    padding: 20px;
+}
+.concept{
+    width: 91%;
+    text-align: left;
+    background-color: #eeeeee;
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+section {
+    padding: 20px 0;
+    border-bottom: 1px #e4e4e4 solid;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}

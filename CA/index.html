@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Internet and The World Wide Web</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <h1>Learning Resource: Internet and The World Wide Web</h1>
+            </div>
+        </header>
+
+        <div class="container">
+            <!-- Introduction to Web Architecture -->
+            <section id="web-architecture" class="web-architecture">
+                <section id = "web-arch">
+                    <h2>Web Architecture</h2>
+                <article>Web architecture is the structure that the website is built on. It is important to ensure that everything runs smoothly, quickly and efficiently</article>
+                </section>
+                <section id = "web-servers">
+                    <h2>Web Servers</h2>
+                <article>Web servers serve files that make up web pages to users browsers in response to requests.</article>
+                </section>
+                <section id = "web-server-diff">
+                    <table id = "table">
+                        <h2>Physcial Vs Virtual Web Servers</h2>
+                        <tr>
+                            <th id = "heading">Aspects</th>
+                            <th id = "physical">Physical Servers</th>
+                            <th id = "digital">Virtual Servers</th>
+                        </tr>
+                        <tr>
+                            <th>Hardware</th>
+                            <th>Computers placed in data centers on racks</th>
+                            <th>Cloud-based, can be accessed from anywhere</th>
+                        </tr>
+                        <tr>
+                            <th>Scalabity</th>
+                            <th>Not very big, confined to one area</th>
+                            <th>Open to any device in the world, can be shared/fixed/etc. quickly and efficiently</th>
+                        </tr>
+                        <tr>
+                            <th>Price</th>
+                            <th>Expensive to store and fix - you have to hire people to be on site for jobs</th>
+                            <th>Cheaper, easier to fix - people can do the work fromm their home</th>
+                        </tr>
+                    </table>
+                </section>
+            </section>
+        
+            <!-- Web Protocols -->
+            <section id="web-protocols">
+                <h2>Web Protocols</h2>
+                <section>
+                    <dt>HTTP:</dt>
+                    <dl>(HyperText Transfer Protocol)</dl>
+                    <dd>- This is the foundation of data communication, it defines the rules for requesting and transferring web resources, for example, images and stylesheets.</dd>
+                </section>
+                <section>
+                    <dt>HTTPS:</dt>
+                    <dl>(HyperText Transfer Protocol Secure)</dl>
+                    <dd>- It uses encryption (SSL/TLS) to protect data exchanged with clients and servers.</dd>
+                </section>
+                <section>
+                    <dt>TCP/IP:</dt>
+                    <dl>(Transmission Control Protocol / Internet Protocol)</dl>
+                    <dd>- TCP looks after communication between application software and your network software - it breaks down data in packets before sending, then they will be re-assembled when they arrive at the destination.</dd>
+                    <dd>- IP looks after "routing" each packet to the destination given - this is the communication between two computers.</dd>
+                </section>
+                <section>
+                    <dt>FTP:</dt>
+                    <dl>(File Transfer Protocol)</dl>
+                    <dd>- It enables the transfer of files from the user's local machine to a web browser</dd>
+                </section>
+            </section>
+        
+            <!-- Web Concepts -->
+            <section id="web-concepts" class="web-concepts">
+                <h2>Web Concepts</h2>
+                <section id = "url">
+                    <h2>URLS and DNS</h2>
+                    <p id = "url">A URL is a web address that identifies resources - they consist of a protocol, a domain name, and a path (there can also be sub-domains, folders, and resources included)</p>
+                    <figure><img src = "example-url-structure.png"></figure>
+            </section>
+            <section id = "dn">
+                <p id = "dn">The Domain Name System (DNS) translates human-readable domain names into IP addresses - allowing the browser to locate web servers by name</p>
+                <div class = "concept">Top-Level Domains are the last segment of a domain name - some generic types include: </div>
+                <ul>
+                    <ol>.ie</ol>
+                    <ol>.gov</ol>
+                    <ol>.com</ol>
+                </ul>
+            </section>
+            </section>
+            <section id = "web-concepts-right" class="web-concepts-right">
+                <h2>Cookies and Browsers</h2>
+                <p id = "cookies">Cookies are small data pieces sent by web servers to client's browsers - they're used for identification / tracking user info</p>
+                <table id = "browsers">
+                    <tr>
+                        <th>Web Browser</th>
+                        <th>Chrome</th>
+                        <th>Safari</th>
+                        <th>Firefox</th>
+                    </tr>
+                    <tr>
+                        <th>Engine</th>
+                        <th>Chromium</th>
+                        <th>Webkit</th>
+                        <th>Gecko</th>
+                    </tr>
+                </table>
+                <p id = "differences">The differences these engines can have include having different javascript engines / varied DOM support / all developed independent of each other</p>
+                <p id = "caching">Caching is storing copies of frequently accessed web resources to reduce the loas on servers - faster load time</p>
+            </section>
+        
+            <!-- Internet vs. The Web -->
+            <section id="internet-vs-web">
+                <h2>Internet Vs Web</h2>
+                <p id = "internet"> - The internet - short for Interconnected Network - refers to the physical network that links computers around the world - infrastructure of network servers / communication linked between them</p>
+                <p id = "www"> - The World Wide Web is the info system available via the internet - tranfers documents using HTTP protocol</p>
+            </section>
+        
+            <!-- Communication between Client and Server -->
+            <section id="client-server-communication" class="client-server">
+               <h2>Client-Server Communication</h2>
+               <p id = "request"> - The request-response model refers to communication between the client and the web server - the client sends HTTP request, the server gives info</p>
+               <p id = "stateless"> - A stateless protocol is when each request is independent of each other</p>
+               <p id = "websockets"> - This is two-way communication - it is used for live updates / gaming</p>
+            </section>
+        
+            <!-- Client-side Development Technologies -->
+            <section id="client-side-tech">
+                <h2>Client-Side Tech</h2>
+                <p id = "client-side"> - This includes: </p>
+                <ul>
+                    <ol>HTML: creates structure</ol>
+                    <ol>CSS: styles</ol>
+                    <ol>Javascript: increases activity</ol>
+                </ul>
+            </section>
+        </div>        
+    
+        <footer>
+            <p>Web UI Design Course - Year 2, Semester 2</p>
+        </footer>
+    </body>
+</html>    
