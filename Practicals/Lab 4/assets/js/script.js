@@ -1,4 +1,4 @@
-/*let airpod1 = new Image();
+let airpod1 = new Image();
 airpod1 = "assets/imgs/Airpods Gen 1";
 let airpod2 = new Image();
 airpod2 = "assets/imgs/Airpods Gen 2";
@@ -6,7 +6,7 @@ let airpod3 = new Image();
 airpod3 = "assets/imgs/Airpods Gen 3";
 let airpodPro = new Image();
 airpodPro = "assets/img/Airpods Pro";
-var infoText;*/
+var infoText;
 
 function openAmazonAirpods(){
     window.open('https://www.amazon.co.uk/Apple-Airpods-Charging-latest-Model/dp/B07PZR3PVB/ref=sr_1_3?adgrpid=1181975898019321&hvadid=73873694020733&hvbmt=be&hvdev=c&hvlocphy=161371&hvnetw=o&hvqmt=e&hvtargid=kwd-73873627211678%3Aloc-92&hydadcr=25256_1958878&keywords=airpods+generation+1&qid=1706875382&sr=8-3');

@@ -4,88 +4,86 @@ body{
 h1{
     text-align: center;
 }
-@media only screen and (min-width: 1180px) {
-    .topnav{
-        display: none;
-    }
-    ul {
-        display: flex;
-        list-style-type: none;
-        justify-content: center;
-        flex-wrap: wrap;
-        background-color: rgb(207, 159, 252);
-      }
-      li{
-        padding: 1em;
-      }
-      li a {
-        display: block;
-        color: white;
-        text-align: center;
-        font-size: 40px;
-        padding: 1px 40px;
-        text-decoration: none;
-      }
-      
-      li a:hover {
-        background-color: rgb(174, 87, 255);
-      }
 
-      .grid-container{
-        display: inline-grid;
-        column-gap: 40px;
-        grid-template-columns: auto auto auto auto;
-    }
-    .grid-item{
-        padding-top: 50px;
-        padding-left: 130px;
-        align-items: center;
-    }
-    .grid-item-samsung{
-        padding-left: 130px;
-        padding-top: 150px;
-        align-items: center;
-    }
-    .grid-item-sony{
-        padding-left: 130px;
-        padding-top: 150px;
-        margin-top: auto;
-        margin-bottom: auto;
-        align-items: center;
-    }
-    .grid-name{
-        padding-left: 60px;
-        padding-top: 30px;
-        font-size: 25px;
-        text-align: center;
-    }
-    .grid-name-Pro{
-      padding-left: 130px;
-      padding-top: 30px;
-      font-size: 25px;
-      text-align: center;
-    }
-    .grid-links{
-        padding-left: 60px;
-        padding-top: 20px;
-        padding-bottom: 50px;
-        font-size: 20px;
-        font-weight: bold;
-        text-align: center;
-        cursor: pointer;
-    }
-    .grid-links-Pro{
-      padding-left: 130px;
-      padding-top: 20px;
-      padding-bottom: 50px;
-      font-size: 20px;
-      font-weight: bold;
-      text-align: center;
-      cursor: pointer;
-    }
+.topnav{
+  display: none;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(207, 159, 252);
+}
+li{
+  padding: 1em;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding: 1px 40px;
+  text-decoration: none;
 }
 
-@media only screen and (min-width: 1500px) {
+li a:hover {
+  background-color: rgb(174, 87, 255);
+}
+
+.grid-container{
+  display: inline-grid;
+  column-gap: 40px;
+  grid-template-columns: auto auto auto auto;
+  width: 100%;
+}
+.grid-item-apple{
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  align-items: center;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+.grid-item-samsung{
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  align-items: center;
+  margin-top: 10px;
+}
+.grid-item-sony{
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  align-items: center;
+  margin-top: auto;
+  margin-right: 20px;
+}
+
+.grid-item-apple:hover{
+  background-color: rgba(159, 252, 174, 0.233);
+}
+.grid-item-samsung:hover{
+  background-color: rgba(159, 252, 174, 0.233);
+}
+.grid-item-sony:hover{
+  background-color: rgba(159, 252, 174, 0.233);
+}
+
+/*@media only screen and (min-width: 1500px) {
   .topnav{
       display: none;
   }
@@ -256,7 +254,7 @@ h1{
         background-color: #ddd;
         color: black;
       }
-}
+}*/
 
 
 .formOne{
@@ -278,16 +276,12 @@ input{
 }
 .formTwo{
     top: 100px;
-    left: 400px;
+    left: 250px;
     position: relative;
     display: inline-block;
 }
 .labelTwo{
     font-size: 35px;
-}
-
-.grid-links:hover{
-    color: rgb(188, 199, 180);
 }
 
 #Airpods1{
@@ -339,4 +333,80 @@ input{
 #Sony720N{
   height: 250px;
   width: 200px;
+}
+
+h1{
+  font-family: 'Monotes';
+  font-size: 50px;
+}
+.about{
+  font-family: 'Abel Regular';
+  font-size: 50px;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 150px;
+}
+
+.reviews, tr, td {
+  width: 70%;
+  border-collapse: collapse;
+  border: 2px solid rgb(207, 156, 255);
+  margin-left: 300px;
+  margin-top: 50px;
+}
+.headings{
+  background-color: rgb(195, 146, 241);
+  width: 30%;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(108, 70, 145);
+}
+.table-item{
+  background-color: rgb(225, 196, 252);
+  font-size: 25px;
+  text-align: center;
+  width: 30%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.table-item-select{
+  background-color: rgb(225, 196, 252);
+  font-size: 30px;
+  text-align: center;
+  width: 30%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+mark{
+  background-color: rgb(211, 164, 255);
+  font-size: 30px;
+  font-weight: bold;
+}
+.table-item-select:hover{
+  background-color: rgb(207, 156, 255);
+  cursor: pointer;
+}
+
+.review-cat, tr, td {
+  width: 70%;
+  border: 2px solid rgb(207, 156, 255);
+  margin-left: 300px;
+  margin-top: 50px;
+}
+.review-headings{
+  background-color: rgb(195, 146, 241);
+  width: 30%;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(108, 70, 145);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.review-headings:hover{
+  background-color: rgb(207, 156, 255);
+  cursor: pointer;
+}
+a{
+  color: rgb(108, 70, 145);
 }
