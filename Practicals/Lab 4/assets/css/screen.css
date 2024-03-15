@@ -124,6 +124,17 @@ li a:hover {
   align-items: center;
   margin-top: 10px;
 }
+.grid-item-samsung-pro{
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  align-items: center;
+  margin-top: 10px;
+  padding-top: 50px;
+}
 .grid-item-sony{
   border-bottom: 1px solid black;
   text-align: center;
@@ -148,41 +159,6 @@ li a:hover {
 }
 .grid-item-sony:hover{
   background-color: rgba(159, 252, 174, 0.233);
-}
-
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button */
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
 }
 
 .formOne{
@@ -214,6 +190,21 @@ input{
 
 .info{
   display: none;
+  float: left;
+  font-size: 30px;
+  margin-left: 150px;
+}
+.info2{
+  display: none;
+  float: right;
+  font-size: 30px;
+  margin-right: 200px;
+}
+#itemInfo1{
+  margin-top: 100px;
+}
+#itemInfo2{
+  margin-top: 100px;
 }
 
 #Airpods1{
@@ -331,7 +322,7 @@ mark{
 .review-cat, tr, td {
   width: 70%;
   border: 2px solid rgb(207, 156, 255);
-  margin-left: 300px;
+  margin-left: 260px;
   margin-top: 50px;
 }
 .review-headings{
@@ -589,5 +580,16 @@ width: 85px;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 100px;
+  }
+
+  .info{
+    display: none;
+    float: left;
+    font-size: 20px;
+  }
+  .info2{
+    display: none;
+    float: right;
+    font-size: 20px;
   }
 }
