@@ -18,19 +18,30 @@
 
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<div class="topnav">
-  <a href="#home" class="active">Logo</a>
-  <div id="myLinks">
-    <a href="index.html">Home</a>
-    <a href="browse.html">Shop</a>
-    <a href="compare.html">Compare</a>
-    <a href = "review.html">Review</a>
-    <a href = "about.html">About</a>
-  </div>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
+          <section>
+            <table class = "reviews">
+                <tr>
+                  <td class = "headings">Product Name</td>
+                  <td class = "headings">Star Review</td>
+                  <td class = "headings">Pros and Cons</td>
+                </tr>
+                <tr>
+                  <td class = "table-item-select" onclick="openCurrysSonyXM3()">Sony WH-1000XM3</td>
+                  <td class = "table-item"><img src ="assets/imgs/5 Star Rating.png"></td>
+                  <td class = "table-item-list"><mark>Pros:</mark><br> - 30 Hour battery life <br> - Great sound quality <br> - Great noise cancellation <br><br><mark>Cons:</mark><br> - Not much changed from XM2 <br> - Mid call quality</td>
+                </tr>
+                <tr>
+                  <td class = "table-item-select" onclick="openAmazonSonyXM4()">Sony WH-1000XM4</td>
+                  <td class = "table-item"><img src ="assets/imgs/4 Star Rating.png"></td>
+                  <td class = "table-item-list"><mark>Pros:</mark><br> - Improved noise cancellation <br> - Multi-device pairing <br> - Auto Play/Pause <br><br><mark>Cons:</mark><br> - Not much changed from XM3 <br> - Not waterproof <br> - Mid call quality</td>
+                </tr>
+                <tr>
+                  <td class = "table-item-select" onclick="openCurrysSony720N()">Sony WH-CH720N</td>
+                  <td class = "table-item"><img src ="assets/imgs/4 Star Rating.png"></td>
+                  <td class = "table-item-list"><mark>Pros:</mark><br> - Effective noise cancellation <br> - Good sound balance <br><br><mark>Cons:</mark><br> - Constrained noise <br> - Sound can leak <br> - Cheap-feeling plastic</td>
+                </tr>
+              </table>
+            </section>
         
         <script src = "assets/js/script.js"></script>
     </body>

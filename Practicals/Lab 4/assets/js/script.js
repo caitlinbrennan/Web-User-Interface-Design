@@ -37,6 +37,26 @@ function openCurrysSony720N(){
     window.open('https://www.amazon.co.uk/Sony-WH-CH720N-Cancelling-Bluetooth-Headphones-Black/dp/B0BTDX26B2/ref=sr_1_3?adgrpid=1181976044647865&dib=eyJ2IjoiMSJ9.EwcQFDXnxKWMak1D32FS0EOLPEyY1eP0gqcJgWpqFQYwNqADkwWMWNv_7a5DluVJf4YAoRo98ZfhOpuQyUlfkRCnJQ8toWo6njtfheK3mBxnF9pVIaHeEagtVhi-_EobU4-WmHfvhQv8vRi_L9qZWSsw8f3OefexelNMgTqhauEY7cAhKVMKkeRFrn-YonG6JB9aqJg-9YG-GAZ2EoMzP1kn31EBieEwbcCHcMF3UjE.tODfWgWsHyEOTGOt8XkECZeVDMqeAV6J4tIMVW7o4uk&dib_tag=se&hvadid=73873731013778&hvbmt=be&hvdev=c&hvlocphy=142380&hvnetw=o&hvqmt=e&hvtargid=kwd-73873733795461%3Aloc-92&hydadcr=27734_2227843&keywords=sony+720n&qid=1710538449&sr=8-3');
 }
 
+document.getElementById("myForm").addEventListener("submit", function(event) {
+    var emailInput = document.getElementById("Email");
+    var emailError = document.getElementById("emailError");
+    var email = emailInput.value.trim();
+
+    // Check if the email is empty
+    if (email === "") {
+        emailError.textContent = "Email is required";
+        event.preventDefault(); // Prevent form submission
+    } else {
+        // Regular expression for validating email format
+        var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
+            emailError.textContent = "Invalid email format";
+            event.preventDefault(); // Prevent form submission
+        } else {
+            emailError.textContent = ""; // Clear any previous error message
+        }
+    }
+});
 
 function showInfo(selectId) {
     var selectElement = document.getElementById(selectId);
