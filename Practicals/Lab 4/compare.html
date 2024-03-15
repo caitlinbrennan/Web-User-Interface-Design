@@ -18,38 +18,23 @@
             </ul>
         </section>
 
-        <section>
-            <div class="topnav">
-                <a href="#home" class="active">Logo</a>
-                <div id="myLinks">
-                    <a href="index.html">Home</a>
-                    <a href="browse.html">Shop</a>
-                    <a href="compare.html">Compare</a>
-                    <a href = "review.html">Review</a>
-                    <a href = "about.html">About</a>
-                </div>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-                </a>
-            </div>
-        </section>
 
         <section></section>
             <form class = "formOne" action="/action_page.php">
                 <label class = "labelOne" for = "AudioDevice">Choose an item:</label>
-                <select name = "AudioDevice" id = "AudioDevice">
+                <select name = "AudioDevice" id = "AudioDevice1" onchange="showInfo('AudioDevice1')">
                     <option disabled selected value> -- select an option -- </option>
-                    <option value = "airpods">Apple Airpods</option>
-                    <option value = "airpods2">Apple Airpods Gen 2</option>
-                    <option value = "airpods3">Apple Airpods Gen 3</option>
-                    <option value = "airpodsPro">Apple Airpods Pro</option>
-                    <option value = "samsungFE">Samsung Galaxy Buds FE</option>
-                    <option value = "samsungLive">Samsung Galaxy Buds Live</option>
-                    <option value = "samsungPro">Samsung Galaxy Buds Pro</option>
-                    <option value = "samsung2Pro">Samsung Galaxy Buds2 Pro</option>
-                    <option value = "samsung2">Samsung Galaxy Buds2</option>
-                    <option value = "sonyXM3">Sony WH-1000XM3</option>
-                    <option value = "sonyXM4">Sony WH-1000XM4</option>
+                    <option value = "1">Apple Airpods</option>
+                    <option value = "2">Apple Airpods Gen 2</option>
+                    <option value = "3">Apple Airpods Gen 3</option>
+                    <option value = "4">Apple Airpods Pro</option>
+                    <option value = "5">Samsung Galaxy Buds FE</option>
+                    <option value = "6">Samsung Galaxy Buds Live</option>
+                    <option value = "7">Samsung Galaxy Buds Pro</option>
+                    <option value = "8">Samsung Galaxy Buds2 Pro</option>
+                    <option value = "9">Samsung Galaxy Buds2</option>
+                    <option value = "10">Sony WH-1000XM3</option>
+                    <option value = "11">Sony WH-1000XM4</option>
                 </select>
                 <noscript><input type=”submit” value=”Submit”></noscript>
             </form>
@@ -58,23 +43,33 @@
         <section>
             <form class = "formTwo" action="/action_page.php">
                 <label class = "labelTwo" for = "AudioDevice">Choose an item:</label>
-                <select name = "AudioDevice" id = "AudioDevice">
+                <select name = "AudioDevice" id = "AudioDevice2" onchange="showInfo('AudioDevice2')">
                     <option disabled selected value> -- select an option -- </option>
-                    <option value = "airpods">Apple Airpods</option>
-                    <option value = "airpods2">Apple Airpods Gen 2</option>
-                    <option value = "airpods3">Apple Airpods Gen 3</option>
-                    <option value = "airpodsPro">Apple Airpods Pro</option>
-                    <option value = "samsungFE">Samsung Galaxy Buds FE</option>
-                    <option value = "samsungLive">Samsung Galaxy Buds Live</option>
-                    <option value = "samsungPro">Samsung Galaxy Buds Pro</option>
-                    <option value = "samsung2Pro">Samsung Galaxy Buds2 Pro</option>
-                    <option value = "samsung2">Samsung Galaxy Buds2</option>
-                    <option value = "sonyXM3">Sony WH-1000XM3</option>
-                    <option value = "sonyXM4">Sony WH-1000XM4</option>
+                    <option value = "1">Apple Airpods</option>
+                    <option value = "2">Apple Airpods Gen 2</option>
+                    <option value = "3">Apple Airpods Gen 3</option>
+                    <option value = "4">Apple Airpods Pro</option>
+                    <option value = "5">Samsung Galaxy Buds FE</option>
+                    <option value = "6">Samsung Galaxy Buds Live</option>
+                    <option value = "7">Samsung Galaxy Buds Pro</option>
+                    <option value = "8">Samsung Galaxy Buds2 Pro</option>
+                    <option value = "9">Samsung Galaxy Buds2</option>
+                    <option value = "10">Sony WH-1000XM3</option>
+                    <option value = "11">Sony WH-1000XM4</option>
                 </select>
                 <noscript><input type=”submit” value=”Submit”></noscript>
             </form>
         </section>
+
+        <section id="info1" class="info">
+    <h2>Item Information</h2>
+    <p id="itemInfo1"></p>
+</section>
+
+<section id="info2" class="info">
+    <h2>Item Information</h2>
+    <p id="itemInfo2"></p>
+</section>
 
         <script src = "assets/js/script.js"></script>
     </body>

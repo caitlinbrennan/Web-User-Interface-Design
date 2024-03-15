@@ -102,6 +102,17 @@ li a:hover {
   margin-right: 15px;
   margin-top: 10px;
 }
+.grid-item-apple-pro{
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  align-items: center;
+  margin-right: 15px;
+}
 .grid-item-samsung{
   border-bottom: 1px solid black;
   text-align: center;
@@ -127,6 +138,9 @@ li a:hover {
 }
 
 .grid-item-apple:hover{
+  background-color: rgba(159, 252, 174, 0.233);
+}
+.grid-item-apple-pro:hover{
   background-color: rgba(159, 252, 174, 0.233);
 }
 .grid-item-samsung:hover{
@@ -173,7 +187,7 @@ li a:hover {
 
 .formOne{
     top: 100px;
-    left: 100px;
+    left: 80px;
     position: relative;
     display: inline-block;
 }
@@ -189,13 +203,17 @@ input{
     font-size: 35px;
 }
 .formTwo{
-    top: 100px;
-    left: 250px;
+    top: 55px;
+    left: 800px;
     position: relative;
     display: inline-block;
 }
 .labelTwo{
     font-size: 35px;
+}
+
+.info{
+  display: none;
 }
 
 #Airpods1{
@@ -334,6 +352,26 @@ a{
 }
 
 @media only screen and (max-width: 700px){
+  ul {
+    display:grid;
+    list-style-type: none;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: rgb(207, 159, 252);
+    width: 92%;
+  }
+  li{
+    padding: 0;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 15px;
+  }
   h1{
     text-align: center;
   }
@@ -411,7 +449,16 @@ h4{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    align-items: center;
+  }
+  .grid-item-apple-pro{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 15px;
     font-weight: bold;
     align-items: center;
   }
@@ -420,7 +467,7 @@ h4{
     text-align: center;
     padding-top: 40px;
     padding-bottom: 20px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     align-items: center;
     margin-top: 10px;
@@ -430,7 +477,7 @@ h4{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     cursor: pointer;
     align-items: center;

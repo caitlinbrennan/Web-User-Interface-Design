@@ -1,13 +1,3 @@
-let airpod1 = new Image();
-airpod1 = "assets/imgs/Airpods Gen 1";
-let airpod2 = new Image();
-airpod2 = "assets/imgs/Airpods Gen 2";
-let airpod3 = new Image();
-airpod3 = "assets/imgs/Airpods Gen 3";
-let airpodPro = new Image();
-airpodPro = "assets/img/Airpods Pro";
-var infoText;
-
 function openAmazonAirpods(){
     window.open('https://www.amazon.co.uk/Apple-Airpods-Charging-latest-Model/dp/B07PZR3PVB/ref=sr_1_3?adgrpid=1181975898019321&hvadid=73873694020733&hvbmt=be&hvdev=c&hvlocphy=161371&hvnetw=o&hvqmt=e&hvtargid=kwd-73873627211678%3Aloc-92&hydadcr=25256_1958878&keywords=airpods+generation+1&qid=1706875382&sr=8-3');
 }
@@ -47,11 +37,31 @@ function openCurrysSony720N(){
     window.open('https://www.currys.ie/products/sony-whch720n-wireless-bluetooth-noisecancelling-headphones-blue-10247673.html?sv1=affiliate&sv_campaign_id=155280&awc=5297_1706877147_a3e21e177a5917a702d15cb88ad4d9ae&utm_source=Hatch+BV&utm_medium=Affiliate&utm_campaign=Affiliate');
 }
 
-function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
+function showInfo(selectId) {
+    var selectElement = document.getElementById(selectId);
+    var selectedItemValue = selectElement.value;
+    var infoElementId = "info" + selectId.slice(-1); // Extracting the number from selectId to form info element ID
+    var infoElement = document.getElementById(infoElementId);
+    var itemInfoElement = document.getElementById("itemInfo" + selectId.slice(-1));
+
+    var itemInfo = {
+        "1": "Information about Apple Airpods.",
+        "2": "Information about Apple Airpods Gen 2.",
+        "3": "Information about Apple Airpods Gen 3.",
+        "4": "Information about Apple Airpods Pro.",
+        "5": "Information about Samsung Galaxy Buds FE.",
+        "6": "Information about Samsung Galaxy Buds Live.",
+        "7": "Information about Samsung Galaxy Buds Pro.",
+        "8": "Information about Samsung Galaxy Buds2 Pro.",
+        "9": "Information about Samsung Galaxy Buds2.",
+        "10": "Information about Sony WH-1000XM3.",
+        "11": "Information about Sony WH-1000XM4."
+    };
+
+    if (selectedItemValue && itemInfo[selectedItemValue]) {
+        itemInfoElement.textContent = itemInfo[selectedItemValue];
+        infoElement.style.display = "block";
     } else {
-      x.style.display = "block";
+        infoElement.style.display = "none";
     }
-  }
+}
