@@ -250,7 +250,7 @@ li:hover {
 }
 .information1{
     font-family: 'Queensides';
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     position: absolute;
     text-align: left;
@@ -259,28 +259,35 @@ li:hover {
 }
 .information2{
     font-family: 'Queensides';
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     position: absolute;
     text-align: left;
-    top: 65%;
+    top: 70%;
     left: 5%;
 }
 .information3{
     font-family: 'Queensides';
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     position: absolute;
     text-align: left;
-    top: 100%;
+    top: 110%;
     left: 5%;
 }
 .cvinfo{
     font-family: 'Queensides';
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     position: absolute;
     text-align: left;
-    top: 120%;
+    top: 130%;
     left: 5%;
+}
+.robotimg{
+    float: right;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    height: 1200px;
 }
