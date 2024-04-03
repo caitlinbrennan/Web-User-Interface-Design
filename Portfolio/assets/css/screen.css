@@ -248,6 +248,24 @@ li:hover {
     top: 12%;
     left: 35%;
 }
+.socialheading{
+    font-family: 'Queensides';
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    text-align: left;
+    top: 12%;
+    left: 31%;
+}
+.contactheading{
+    font-family: 'Queensides';
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    text-align: left;
+    top: 12%;
+    left: 33%;
+}
 .information1{
     font-family: 'Queensides';
     font-size: 40px;
@@ -290,4 +308,58 @@ li:hover {
     top: 30%;
     left: 40%;
     height: 1200px;
+}
+
+.githublogo{
+    position: absolute;
+    float: left;
+    margin-left: 31%;
+    height: 200px;
+    width: 200px;
+    top: 45%;
+}
+.facebooklogo{
+    position: absolute;
+    float: left;
+    margin-left: 31%;
+    height: 200px;
+    width: 200px;
+    top: 80%;
+}
+.linkedinlogo{
+    position: absolute;
+    float: left;
+    margin-left: 31%;
+    height: 200px;
+    width: 200px;
+    top: 115%;
+}
+.githubname{
+    position: absolute;
+    float: left;
+    margin-left: 50%;
+    top: 42%;
+    font-family: 'Queensides';
+    font-size: 80px;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.facebookname{
+    position: absolute;
+    float: left;
+    margin-left: 47%;
+    top: 77%;
+    font-family: 'Queensides';
+    font-size: 80px;
+    color: white;
+}
+.linkedinname{
+    position: absolute;
+    float: left;
+    margin-left: 49%;
+    top: 112%;
+    font-family: 'Queensides';
+    font-size: 80px;
+    color: white;
 }
