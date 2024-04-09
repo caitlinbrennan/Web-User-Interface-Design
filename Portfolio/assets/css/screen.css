@@ -245,7 +245,7 @@ li:hover {
     color: white;
     position: absolute;
     text-align: left;
-    top: 12%;
+    top: 10%;
     left: 35%;
 }
 .socialheading{
@@ -254,7 +254,7 @@ li:hover {
     color: white;
     position: absolute;
     text-align: left;
-    top: 12%;
+    top: 10%;
     left: 31%;
 }
 .contactheading{
@@ -263,7 +263,7 @@ li:hover {
     color: white;
     position: absolute;
     text-align: left;
-    top: 12%;
+    top: 10%;
     left: 33%;
 }
 .information1{
@@ -362,4 +362,121 @@ li:hover {
     font-family: 'Queensides';
     font-size: 80px;
     color: white;
+}
+
+.contactrectangle{
+    background-color: rgb(173, 173, 173);
+    height: 400px;
+    width: 1000px;
+    position: absolute;
+    left: 18%;
+    top: 42%;
+    border-radius: 25px;
+}
+.contactseparator1{
+    background-color: black;
+    height: 3px;
+    width: 1000px;
+    position: absolute;
+    left: 18%;
+    top: 53.5%;
+}
+.contactseparator2{
+    background-color: black;
+    height: 3px;
+    width: 1000px;
+    position: absolute;
+    left: 18%;
+    top: 65%;
+}
+/*
+.name{
+    font-family: 'Queensides';
+    font-size: 40px;
+    position: absolute;
+    top: 39.5%;
+    left: 20%;
+}
+.email{
+    font-family: 'Queensides';
+    font-size: 40px;
+    position: absolute;
+    left: 20%;
+    top: 51%;
+}
+.enquiry{
+    font-family: 'Queensides';
+    font-size: 40px;
+    position: absolute;
+    left: 20%;
+    top: 62%;
+}
+.namerec{
+    background-color: white;
+    height: 65px;
+    width: 799px;
+    position: absolute;
+    top: 43.5%;
+    left: 29%;
+    border-radius: 25px;
+}
+.emailrec{
+    background-color: white;
+    height: 65px;
+    width: 799px;
+    position: absolute;
+    top: 55%;
+    left: 29%;
+    border-radius: 25px;
+}
+.enquiryrec{
+    background-color: white;
+    height: 130px;
+    width: 940px;
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    border-radius: 25px;
+}*/
+
+form{
+    position: absolute;
+    top: 44%;
+    left: 20%;
+}
+form label{
+    font-size: 40px;
+    font-family: 'Queensides';
+}
+#fname{
+    width: 790px;
+    height: 50px;
+    position: absolute;
+    left: 95%;
+    top: 1%;
+    border-radius: 25px;
+}
+#email{
+    width: 790px;
+    height: 50px;
+    position: absolute;
+    left: 95%;
+    top: 38%;
+    border-radius: 25px;
+}
+#enquiry{
+    width: 920px;
+    height: 120px;
+    position: absolute;
+    top: 105%;
+    border-radius: 25px;
+}
+#submit{
+    position: absolute;
+    left: 750%;
+    top: 148%;
+    font-size: 40px;
+    font-family: 'Queensides';
+    cursor: pointer;
+    border-radius: 10px;
 }
