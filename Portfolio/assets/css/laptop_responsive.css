@@ -468,4 +468,50 @@
         color: white;
         left: 5%;
     }
+    .headphoneUIOne{
+        width: 40%;
+        height: 40%;
+        position: absolute;
+        left: 5%;
+        top: 135%;
+    }
+    .headphoneUITwo{
+        width: 40%;
+        height: 40%;
+        position: absolute;
+        left: 5%;
+        top: 85%;
+    }
+    .ToDo{
+        width: 40%;
+        height: 90%;
+        position: absolute;
+        left: 55%;
+        top: 85%;
+    }
+    .headphoneUIText{
+        font-family: 'Queensides';
+        font-size: 30px;
+        position: absolute;
+        top: 175%;
+        left: 5%;
+        color: white;
+        text-align: center;
+    }
+    .ToDoText{
+        font-family: 'Queensides';
+        font-size: 30px;
+        position: absolute;
+        top: 175%;
+        left: 58%;
+        color: white;
+        text-align: center;
+    }
+    .pagebottomUI{
+        position: absolute;
+        background-color: rgba(0,12,40,255);
+        width: 100px;
+        height: 10px;
+        top: 192%;
+    }
 }
