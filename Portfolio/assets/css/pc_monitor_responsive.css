@@ -1,0 +1,484 @@
+@media only screen and (min-width:1900px){    
+    body{
+        background-color: #000c28;
+    }
+    
+    @font-face {
+        font-family: Grotley;
+        src: url('assets/fonts/grotley-font/GrotleyRegular.mLEWv.otf');
+    }
+    @font-face {
+        font-family: Queensides;
+        src: url('assets/fonts/queensides-font/QueensidesMedium-x30zV.ttf');
+    }
+
+    #main_img{
+        width: 100%;
+    }
+    #title_name{
+        font-size: 840%;
+        font-family: 'Grotley';
+        font-weight: lighter;
+        color: white;
+        position: absolute;
+        top: 37.5%;
+        left: 13.5%;
+    }
+    #bottom_title{
+        font-size: 420%;
+        font-family: 'Grotley';
+        font-weight: lighter;
+        color: white;
+        position: absolute;
+        top: 59.5%;
+        left: 35.5%;
+    }
+    .rectangle{
+        position: absolute;
+        top: 49%;
+        left: 9.5%;
+        height: 13%;
+        width: 81.5%;
+        background-color: rgb(105, 105, 105);
+        opacity: 30%;
+        border-radius: 30px;
+    }
+    .small_rec{
+        position: absolute;
+        top: 65%;
+        left: 32%;
+        height: 80px;
+        width: 590px;
+        background-color: rgb(105, 105, 105);
+        opacity: 30%;
+        border-radius: 25px;
+    }
+    #thickarrowright{
+        position: absolute;
+        left: 90.9%;
+        top: 50%;
+        height: 150px;
+        height: 150px;
+    }
+    #thickarrowleft{
+        position: absolute;
+        right: 90.9%;
+        top: 50%;
+        height: 150px;
+        height: 150px;
+        transform: rotate(180deg);
+    }
+    #thinarrow{
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        transform: rotate(90deg);
+        left: 48%;
+        top: 86%;
+    }
+    #arttitle{
+        font-size: 55px;
+        font-family: 'Queensides';
+        color: white;
+        position: absolute;
+        left: 10%;
+        top: 125%;
+    }
+    #infotitle{
+        font-size: 55px;
+        font-family: 'Queensides';
+        color: white;
+        position: absolute;
+        left: 10%;
+        top: 175%;
+    }
+    
+    #twod{
+        font-size: 80px;
+        font-family: 'Queensides';
+        color: white;
+        position: absolute;
+        top: 111.5%;
+        left: 21%;
+    }
+    #threed{
+        font-size: 80px;
+        font-family: 'Queensides';
+        color: white;
+        position: absolute;
+        top: 111.5%;
+        left: 45.7%;
+    }
+    #coding{
+        font-size: 70px;
+        font-family: 'Queensides';
+        color: white;
+        position: absolute;
+        top: 109%;
+        left: 70.5%;
+        text-align: center;
+    }
+    #about{
+        font-size: 75px;
+        font-family: 'Queensides';
+        color: white;
+        position: absolute;
+        top: 157%;
+        left: 21.2%;
+        text-align: center;
+    }
+    #social{
+        font-size: 80px;
+        font-family: 'Queensides';
+        color: white;
+        position: absolute;
+        top: 161.5%;
+        left: 46%;
+    }
+    #contact{
+        font-size: 65px;
+        font-family: 'Queensides';
+        color: white;
+        position: absolute;
+        top: 159%;
+        left: 70.5%;
+        text-align: center;
+    }
+    
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .twodblock{
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        top: 111.5%;
+        left: 20%;
+        background-color: rgb(108, 92, 156);
+        border-radius: 25px;
+    }
+    .threedblock{
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        top: 111.5%;
+        left: 45%;
+        background-color: rgb(108, 92, 156);
+        border-radius: 25px;
+    }
+    .codeblock{
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        top: 111.5%;
+        left: 70%;
+        background-color: rgb(108, 92, 156);
+        border-radius: 25px;
+    }
+    .aboutblock{
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        top: 161.5%;
+        left: 20%;
+        background-color: rgb(108, 92, 156);
+        border-radius: 25px;
+    }
+    .socialblock{
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        top: 161.5%;
+        left: 45%;
+        background-color: rgb(108, 92, 156);
+        border-radius: 25px;
+    }
+    .contactblock{
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        top: 161.5%;
+        left: 70%;
+        background-color: rgb(108, 92, 156);
+        border-radius: 25px;
+    }
+    
+    .pagebottom{
+        position: absolute;
+        background-color: rgba(0,12,40,255);
+        width: 100px;
+        height: 100px;
+        top: 190%;
+    }
+    
+    ul{
+        background-color: rgb(108, 92, 156);
+        list-style-type: none;
+        margin-left: 22%;
+        margin-top: 0%;
+        padding: 0;
+    }
+    li{
+        float: left;
+    }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Queensides';
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover {
+        background-color: rgb(127, 110, 175);
+    }
+    li a.current {
+        background-color: rgb(127, 110, 175);
+        color: white;
+    }
+    
+    .infoheading{
+        font-family: 'Queensides';
+        font-size: 100px;
+        color: white;
+        position: absolute;
+        text-align: left;
+        top: 10%;
+        left: 35%;
+    }
+    .socialheading{
+        font-family: 'Queensides';
+        font-size: 100px;
+        color: white;
+        position: absolute;
+        text-align: left;
+        top: 10%;
+        left: 31%;
+    }
+    .contactheading{
+        font-family: 'Queensides';
+        font-size: 100px;
+        color: white;
+        position: absolute;
+        text-align: left;
+        top: 10%;
+        left: 33%;
+    }
+    .information1{
+        font-family: 'Queensides';
+        font-size: 40px;
+        color: white;
+        position: absolute;
+        text-align: left;
+        top: 40%;
+        left: 5%;
+    }
+    .information2{
+        font-family: 'Queensides';
+        font-size: 40px;
+        color: white;
+        position: absolute;
+        text-align: left;
+        top: 70%;
+        left: 5%;
+    }
+    .information3{
+        font-family: 'Queensides';
+        font-size: 40px;
+        color: white;
+        position: absolute;
+        text-align: left;
+        top: 110%;
+        left: 5%;
+    }
+    .cvinfo{
+        font-family: 'Queensides';
+        font-size: 40px;
+        color: white;
+        position: absolute;
+        text-align: left;
+        top: 130%;
+        left: 5%;
+    }
+    .robotimg{
+        float: right;
+        position: absolute;
+        top: 30%;
+        left: 40%;
+        height: 1200px;
+    }
+    
+    .githublogo{
+        position: absolute;
+        float: left;
+        margin-left: 2%;
+        height: 22%;
+        width: 12%;
+        top: 44%;
+    }
+    .facebooklogo{
+        position: absolute;
+        float: left;
+        margin-left: 33%;
+        height: 22%;
+        width: 12%;
+        top: 44%;
+    }
+    .linkedinlogo{
+        position: absolute;
+        float: left;
+        margin-left: 67%;
+        height: 200px;
+        width: 200px;
+        top: 44%;
+    }
+    .githubname{
+        position: absolute;
+        float: left;
+        margin-left: 15%;
+        top: 44%;
+        font-family: 'Queensides';
+        font-size: 60px;
+        color: white;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .facebookname{
+        position: absolute;
+        float: left;
+        margin-left: 46%;
+        top: 44%;
+        font-family: 'Queensides';
+        font-size: 60px;
+        color: white;
+    }
+    .linkedinname{
+        position: absolute;
+        float: left;
+        margin-left: 80%;
+        top: 44%;
+        font-family: 'Queensides';
+        font-size: 60px;
+        color: white;
+    }
+    
+    .contactrectangle{
+        background-color: rgb(173, 173, 173);
+        height: 400px;
+        width: 1000px;
+        position: absolute;
+        left: 18%;
+        top: 42%;
+        border-radius: 25px;
+    }
+    .contactseparator1{
+        background-color: black;
+        height: 3px;
+        width: 1000px;
+        position: absolute;
+        left: 18%;
+        top: 53.5%;
+    }
+    .contactseparator2{
+        background-color: black;
+        height: 3px;
+        width: 1000px;
+        position: absolute;
+        left: 18%;
+        top: 65%;
+    }
+    /*
+    .name{
+        font-family: 'Queensides';
+        font-size: 40px;
+        position: absolute;
+        top: 39.5%;
+        left: 20%;
+    }
+    .email{
+        font-family: 'Queensides';
+        font-size: 40px;
+        position: absolute;
+        left: 20%;
+        top: 51%;
+    }
+    .enquiry{
+        font-family: 'Queensides';
+        font-size: 40px;
+        position: absolute;
+        left: 20%;
+        top: 62%;
+    }
+    .namerec{
+        background-color: white;
+        height: 65px;
+        width: 799px;
+        position: absolute;
+        top: 43.5%;
+        left: 29%;
+        border-radius: 25px;
+    }
+    .emailrec{
+        background-color: white;
+        height: 65px;
+        width: 799px;
+        position: absolute;
+        top: 55%;
+        left: 29%;
+        border-radius: 25px;
+    }
+    .enquiryrec{
+        background-color: white;
+        height: 130px;
+        width: 940px;
+        position: absolute;
+        top: 75%;
+        left: 20%;
+        border-radius: 25px;
+    }*/
+    
+    form{
+        position: absolute;
+        top: 44%;
+        left: 20%;
+    }
+    form label{
+        font-size: 40px;
+        font-family: 'Queensides';
+    }
+    #fname{
+        width: 790px;
+        height: 50px;
+        position: absolute;
+        left: 95%;
+        top: 1%;
+        border-radius: 25px;
+    }
+    #email{
+        width: 790px;
+        height: 50px;
+        position: absolute;
+        left: 95%;
+        top: 38%;
+        border-radius: 25px;
+    }
+    #enquiry{
+        width: 920px;
+        height: 120px;
+        position: absolute;
+        top: 105%;
+        border-radius: 25px;
+    }
+    #submit{
+        position: absolute;
+        left: 750%;
+        top: 148%;
+        font-size: 40px;
+        font-family: 'Queensides';
+        cursor: pointer;
+        border-radius: 10px;
+    }
+}

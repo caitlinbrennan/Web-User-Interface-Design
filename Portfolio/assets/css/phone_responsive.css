@@ -1,0 +1,14 @@
+@media only screen and (min-width: 300px){
+    body{
+        background-color: #000c28;
+    }
+    
+    @font-face {
+        font-family: Grotley;
+        src: url('assets/fonts/grotley-font/GrotleyRegular.mLEWv.otf');
+    }
+    @font-face {
+        font-family: Queensides;
+        src: url('assets/fonts/queensides-font/QueensidesMedium-x30zV.ttf');
+    }
+}
