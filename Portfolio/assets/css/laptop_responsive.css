@@ -241,6 +241,43 @@
         color: white;
     }
 
+    .hologram{
+        width: 24%;
+        position: absolute;
+        left: 7.5%;
+        top: 14%;
+    }
+    .robotarms{
+        width: 28.9%;
+        position: absolute;
+        left: 32.5%;
+        top: 14%;
+    }
+    .ivywall{
+        width: 28.9%;
+        position: absolute;
+        left: 62.5%;
+        top: 14%;
+    }
+    .landscapedrawing{
+        width: 27.5%;
+        position: absolute;
+        left: 14%;
+        top: 58.5%;
+    }
+    .pixelflowers{
+        width: 14.5%;
+        position: absolute;
+        left: 45%;
+        top: 58.9%;
+    }
+    .bouncyball{
+        width: 19.5%;
+        position: absolute;
+        left: 63.5%;
+        top: 58.5%;
+    }
+
     .infoheading{
         font-family: 'Queensides';
         font-size: 100px;
@@ -308,7 +345,7 @@
         float: right;
         position: absolute;
         top: 30%;
-        left: 40%;
+        left: 39%;
         height: 1200px;
     }
 
