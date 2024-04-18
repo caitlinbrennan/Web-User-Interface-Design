@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px){
+/*@media only screen and (max-width: 1200px){
     body{
         background-color: #000c28;
     }
@@ -227,7 +227,7 @@
     contact page = height: 91 height: 43
     */
 
-    ul{
+    /*ul{
         background-color: rgb(108, 92, 156);
         list-style-type: none;
         margin-left: 22%;
@@ -435,7 +435,7 @@
         color: white;
         /*cursor: pointer;
         text-decoration: underline;*/
-    }
+    /*}
     .linkedinname{
         position: absolute;
         float: left;
@@ -445,7 +445,7 @@
         font-size: 60px;
         color: white;
         /*cursor: pointer;
-        text-decoration: underline;*/
+        text-decoration: underline;
     }
 
     .contactrectangle{
@@ -595,4 +595,4 @@
         height: 10px;
         top: 192%;
     }
-}
+}/*
