@@ -1,4 +1,4 @@
-@media only screen and (min-width:1900px){    
+@media only screen and (min-width:1000px){    
     body{
         background-color: #000c28;
     }
@@ -22,7 +22,7 @@
         color: white;
         position: absolute;
         top: 37.5%;
-        left: 13.5%;
+        left: 12%;
     }
     #bottom_title{
         font-size: 420%;
@@ -207,10 +207,99 @@
     
     .pagebottom{
         position: absolute;
-        background-color: rgba(0,12,40,255);
-        width: 100px;
-        height: 100px;
+        background-color: #131f3a;
+        width: 99.4%;
+        height: 7%;
+        top: 196%;
+        left: 0.6%;
+    }
+    .copyright{
+        font-family: 'Queensides';
+        font-size: 30px;
+        color: white;
+        position: absolute;
+        top: 194%;
+        left: 42%;
+    }
+    .pagebottomweb{
+        position: absolute;
+        background-color: #131f3a;
+        width: 99.4%;
+        height: 7%;
         top: 190%;
+        left: 0.6%;
+    }
+    .copyrightweb{
+        font-family: 'Queensides';
+        font-size: 30px;
+        color: white;
+        position: absolute;
+        top: 188%;
+        left: 42%;
+    }
+    .pagebottomthreed{
+        position: absolute;
+        background-color: #131f3a;
+        width: 99.4%;
+        height: 7%;
+        top: 93%;
+        left: 0.6%;
+    }
+    .copyrightthreed{
+        font-family: 'Queensides';
+        font-size: 30px;
+        color: white;
+        position: absolute;
+        top: 91%;
+        left: 42%;
+    }
+    .pagebottomtwod{
+        position: absolute;
+        background-color: #131f3a;
+        width: 99.4%;
+        height: 7%;
+        top: 93%;
+        left: 0.6%;
+    }
+    .copyrighttwod{
+        font-family: 'Queensides';
+        font-size: 30px;
+        color: white;
+        position: absolute;
+        top: 91%;
+        left: 42%;
+    }
+    .pagebottomsocial{
+        position: absolute;
+        background-color: #131f3a;
+        width: 99.4%;
+        height: 7%;
+        top: 93%;
+        left: 0.6%;
+    }
+    .copyrightsocial{
+        font-family: 'Queensides';
+        font-size: 30px;
+        color: white;
+        position: absolute;
+        top: 91%;
+        left: 42%;
+    }
+    .pagebottomcontact{
+        position: absolute;
+        background-color: #131f3a;
+        width: 99.4%;
+        height: 7%;
+        top: 93%;
+        left: 0.6%;
+    }
+    .copyrightcontact{
+        font-family: 'Queensides';
+        font-size: 30px;
+        color: white;
+        position: absolute;
+        top: 91%;
+        left: 42%;
     }
     
     ul{
@@ -238,6 +327,74 @@
     li a.current {
         background-color: rgb(127, 110, 175);
         color: white;
+    }
+
+    .hologram{
+        width: 24%;
+        position: absolute;
+        left: 7.5%;
+        top: 14%;
+    }
+    .robotarms{
+        width: 28.9%;
+        position: absolute;
+        left: 32.5%;
+        top: 14%;
+    }
+    .ivywall{
+        width: 28.9%;
+        position: absolute;
+        left: 62.5%;
+        top: 14%;
+    }
+    .landscapedrawing{
+        width: 27.5%;
+        position: absolute;
+        left: 14%;
+        top: 53.5%;
+    }
+    .pixelflowers{
+        width: 14.5%;
+        position: absolute;
+        left: 45%;
+        top: 53.9%;
+    }
+    .bouncyball{
+        width: 19.5%;
+        position: absolute;
+        left: 63.5%;
+        top: 53.5%;
+    }
+
+    .cuprender{
+        width: 24%;
+        position: absolute;
+        top: 14%;
+        left: 12.2%;
+    }
+    .castlerender{
+        width: 24.3%;
+        position: absolute;
+        top: 14%;
+        left: 37.2%;
+    }
+    .extruderender{
+        width: 22.5%;
+        position: absolute;
+        top: 14%;
+        left: 62.5%;
+    }
+    .vanrender{
+        width: 31%;
+        position: absolute;
+        top: 55.5%;
+        left: 20.5%;
+    }
+    .bookrender{
+        width: 24%;
+        position: absolute;
+        top: 55.5%;
+        left: 52.5%;
     }
     
     .infoheading{
@@ -313,24 +470,21 @@
     
     .githublogo{
         position: absolute;
-        float: left;
-        margin-left: 2%;
+        left: 5%;
         height: 22%;
         width: 12%;
         top: 44%;
     }
-    .facebooklogo{
+    .discordlogo{
         position: absolute;
-        float: left;
-        margin-left: 33%;
+        left: 35.5%;
         height: 22%;
         width: 12%;
         top: 44%;
     }
     .linkedinlogo{
         position: absolute;
-        float: left;
-        margin-left: 67%;
+        left: 68%;
         height: 200px;
         width: 200px;
         top: 44%;
@@ -338,7 +492,7 @@
     .githubname{
         position: absolute;
         float: left;
-        margin-left: 15%;
+        margin-left: 17.5%;
         top: 44%;
         font-family: 'Queensides';
         font-size: 60px;
@@ -346,23 +500,27 @@
         cursor: pointer;
         text-decoration: underline;
     }
-    .facebookname{
+    .discordname{
         position: absolute;
         float: left;
-        margin-left: 46%;
+        margin-left: 48.5%;
         top: 44%;
         font-family: 'Queensides';
         font-size: 60px;
         color: white;
+        cursor: pointer;
+        text-decoration: underline;
     }
     .linkedinname{
         position: absolute;
         float: left;
-        margin-left: 80%;
+        margin-left: 81%;
         top: 44%;
         font-family: 'Queensides';
         font-size: 60px;
         color: white;
+        cursor: pointer;
+        text-decoration: underline;
     }
     
     .contactrectangle{
@@ -380,7 +538,7 @@
         width: 1000px;
         position: absolute;
         left: 18%;
-        top: 53.5%;
+        top: 52%;
     }
     .contactseparator2{
         background-color: black;
@@ -388,7 +546,7 @@
         width: 1000px;
         position: absolute;
         left: 18%;
-        top: 65%;
+        top: 62.5%;
     }
     /*
     .name{
@@ -462,23 +620,97 @@
         height: 50px;
         position: absolute;
         left: 95%;
-        top: 38%;
+        top: 39.5%;
         border-radius: 25px;
     }
     #enquiry{
         width: 920px;
         height: 120px;
         position: absolute;
-        top: 105%;
+        top: 103%;
         border-radius: 25px;
     }
     #submit{
         position: absolute;
         left: 750%;
-        top: 148%;
+        top: 137%;
         font-size: 40px;
         font-family: 'Queensides';
         cursor: pointer;
         border-radius: 10px;
+    }
+
+    .sites{
+        font-family: 'Queensides';
+        font-size: 100px;
+        position: absolute;
+        top: 2%;
+        color: white;
+        left: 38%;
+    }
+    .sitelink{
+        font-family: 'Queensides';
+        font-size: 50px;
+        position: absolute;
+        left: 38%;
+        top: 31%;
+        color: #000c28;
+        cursor: pointer;
+    }
+    .siterec{
+        background-color: rgb(173, 173, 173);
+        width: 33%;
+        height: 11%;
+        position: absolute;
+        top: 35%;
+        left: 34%;
+        border-radius: 30px;
+    }
+    .ui{
+        font-family: 'Queensides';
+        font-size: 110px;
+        position: absolute;
+        top: 45%;
+        color: white;
+        left: 36%;
+    }
+    .headphoneUIOne{
+        width: 40%;
+        height: 40%;
+        position: absolute;
+        left: 5%;
+        top: 130%;
+    }
+    .headphoneUITwo{
+        width: 40%;
+        height: 40%;
+        position: absolute;
+        left: 5%;
+        top: 80%;
+    }
+    .ToDo{
+        width: 40%;
+        height: 90%;
+        position: absolute;
+        left: 55%;
+        top: 80%;
+    }
+    .headphoneUIText{
+        font-family: 'Queensides';
+        font-size: 30px;
+        position: absolute;
+        top: 167%;
+        left: 5%;
+        color: white;
+        text-align: center;
+    }
+    .ToDoText{
+        font-family: 'Queensides';
+        font-size: 30px;
+        position: absolute;
+        top: 167%;
+        left: 58%;
+        color: white;
+        text-align: center;
     }
 }
