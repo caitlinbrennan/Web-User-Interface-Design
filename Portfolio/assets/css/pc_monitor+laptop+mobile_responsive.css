@@ -880,7 +880,7 @@
         color: white;
         position: absolute;
         top: 205%;
-        left: 42%;
+        left: 41%;
     }
     .pagebottomweb{
         position: absolute;
@@ -896,7 +896,7 @@
         color: white;
         position: absolute;
         top: 189%;
-        left: 44%;
+        left: 42.5%;
     }
     .pagebottomabout{
         position: absolute;
@@ -912,7 +912,7 @@
         color: white;
         position: absolute;
         top: 174%;
-        left: 44%;
+        left: 42.5%;
     }
     .pagebottomthreed{
         position: absolute;
@@ -928,7 +928,7 @@
         color: white;
         position: absolute;
         top: 92%;
-        left: 44%;
+        left: 42.5%;
     }
     .pagebottomtwod{
         position: absolute;
@@ -944,7 +944,7 @@
         color: white;
         position: absolute;
         top: 92%;
-        left: 44%;
+        left: 42.5%;
     }
     .pagebottomsocial{
         position: absolute;
@@ -960,7 +960,7 @@
         color: white;
         position: absolute;
         top: 92%;
-        left: 44%;
+        left: 42.5%;
     }
     .pagebottomcontact{
         position: absolute;
@@ -976,13 +976,13 @@
         color: white;
         position: absolute;
         top: 92%;
-        left: 44%;
+        left: 42.5%;
     }
 
     ul{
         background-color: rgb(108, 92, 156);
         list-style-type: none;
-        margin-left: 19%;
+        margin-left: 17.5%;
         margin-top: 0%;
         padding: 0;
     }
@@ -1047,35 +1047,35 @@
         width: 21%;
         position: absolute;
         top: 14%;
-        left: 18.7%;
+        left: 17.7%;
         border: 1px solid rgb(69, 69, 69);
     }
     .castlerender{
         width: 21.3%;
         position: absolute;
         top: 14%;
-        left: 40.7%;
+        left: 39.7%;
         border: 1px solid rgb(69, 69, 69);
     }
     .extruderender{
         width: 19.5%;
         position: absolute;
         top: 14%;
-        left: 63%;
+        left: 62%;
         border: 1px solid rgb(69, 69, 69);
     }
     .vanrender{
         width: 28%;
         position: absolute;
         top: 56.5%;
-        left: 25.5%;
+        left: 24.5%;
         border: 1px solid rgb(69, 69, 69);
     }
     .bookrender{
         width: 21%;
         position: absolute;
         top: 56.5%;
-        left: 54.5%;
+        left: 53.5%;
         border: 1px solid rgb(69, 69, 69);
     }
 
@@ -1095,7 +1095,7 @@
         position: absolute;
         text-align: left;
         top: 9%;
-        left: 32%;
+        left: 30.5%;
     }
     .contactheading{
         font-family: "Montserrat";
@@ -1103,8 +1103,8 @@
         color: white;
         position: absolute;
         text-align: left;
-        top: 5%;
-        left: 35%;
+        top: 9%;
+        left: 33.5%;
     }
     .information1{
         font-family: "Montserrat";
@@ -1210,7 +1210,7 @@
         height: 400px;
         width: 1000px;
         position: absolute;
-        left: 17%;
+        left: 16%;
         top: 36%;
         border-radius: 25px;
     }
@@ -1219,7 +1219,7 @@
         height: 3px;
         width: 1000px;
         position: absolute;
-        left: 17%;
+        left: 16%;
         top: 47.5%;
     }
     .contactseparator2{
@@ -1227,13 +1227,13 @@
         height: 3px;
         width: 1000px;
         position: absolute;
-        left: 17%;
+        left: 16%;
         top: 60%;
     }
     form{
         position: absolute;
         top: 38%;
-        left: 19%;
+        left: 18%;
     }
     form label{
         font-size: 40px;
@@ -1243,7 +1243,7 @@
         width: 790px;
         height: 50px;
         position: absolute;
-        left: 95%;
+        left: 94%;
         bottom: 75%;
         border-radius: 25px;
     }
@@ -1251,7 +1251,7 @@
         width: 790px;
         height: 50px;
         position: absolute;
-        left: 95%;
+        left: 94%;
         top: 40%;
         border-radius: 25px;
     }
@@ -1264,7 +1264,7 @@
     }
     #submit{
         position: absolute;
-        left: 600%;
+        left: 599%;
         top: 148%;
         font-size: 40px;
         font-family: "Montserrat";
@@ -1278,13 +1278,13 @@
         position: absolute;
         top: 5%;
         color: white;
-        left: 39%;
+        left: 38%;
     }
     .sitelink{
         font-family: "Montserrat";
         font-size: 50px;
         position: absolute;
-        left: 37%;
+        left: 36%;
         top: 26%;
         color: #000c28;
         cursor: pointer;
@@ -1295,7 +1295,7 @@
         height: 11%;
         position: absolute;
         top: 32%;
-        left: 35.3%;
+        left: 34.3%;
         border-radius: 30px;
     }
     .ui{
@@ -1304,7 +1304,7 @@
         position: absolute;
         top: 47%;
         color: white;
-        left: 39.5%;
+        left: 38%;
     }
     .headphoneUIOne{
         width: 40%;
